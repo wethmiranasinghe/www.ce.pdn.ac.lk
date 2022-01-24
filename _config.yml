@@ -12,6 +12,8 @@ ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (t
 minima:
   date_format: "%b %-d, %Y"
 
+permalink: /:categories/:year-:month-:day-:title:output_ext
+
 plugins:
     - jekyll-seo-tag
     - jekyll-readme-index
