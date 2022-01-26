@@ -1,0 +1,24 @@
+---
+layout: default
+title: News
+permalink: /news/
+navbar_active: News
+---
+{% include page_tree_builder.html pages=site.html_pages -%}
+
+<nav aria-label="breadcrumb pt-3">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ site.baseurl }}{% link pages/home.html %}">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">News</li>
+    </ol>
+</nav>
+
+<h2>News</h2>
+
+{% assign newsList = site.categories["news"] | where: "draft", "false" %}
+
+<ul>
+    {% for post in newsList %}
+    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>

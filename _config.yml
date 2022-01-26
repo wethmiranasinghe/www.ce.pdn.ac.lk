@@ -18,6 +18,7 @@ plugins:
     - jekyll-seo-tag
     - jekyll-readme-index
     - jekyll-sitemap
+    - jekyll-loading-lazy
 
 permalink: pretty
 

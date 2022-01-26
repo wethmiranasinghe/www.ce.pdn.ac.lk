@@ -56,7 +56,16 @@ permalink: /
 </div>
 
 <main role="main" class="container pt-3 vh-50">
-    <h3>Welcome to the Department of Computer Engineering, University of Peradeniya</h3>
+    <h3 class="pb-5">Welcome to the Department of Computer Engineering, University of Peradeniya</h3>
+
+
+    {% assign newsList = site.categories["news"] | where: "draft", "false" %}
+    <h3>News</h3>
+    <ul>
+        {% for post in newsList %}
+        <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
 
     <pre>
 
