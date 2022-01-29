@@ -1,48 +1,52 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-   <div class="container px-5">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container px-5">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-           <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between w-100">
-               <li class="nav-item"><a class="nav-link" href="{{ '/' | prepend: site.baseurl  }}">Home</a></li>
-               <li class="nav-item"><a class="nav-link" href="#">Study</a></li>
-               <li class="nav-item"><a class="nav-link" href="#">Research</a></li>
-               <li class="nav-item"><a class="nav-link" href="https://projects.ce.pdn.ac.lk/">Projects</a></li>
+        <div class="collapse navbar-collapse" id="main_nav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between w-100">
+                <li class="nav-item active"><a class="nav-link" href="{{ '/' | prepend: site.baseurl  }}">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Study</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Research</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://projects.ce.pdn.ac.lk/">Projects</a></li>
 
-               <li class="nav-item dropdown px-3">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        People
-                    </a>
-                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                       <a class="dropdown-item" target="_blank" href="https://people.ce.pdn.ac.lk/staff/academic/">Academic Staff</a>
-                        <a class="dropdown-item" target="_blank" href="https://people.ce.pdn.ac.lk/">Students</a>
-                        <a class="dropdown-item" target="_blank" href="https://people.ce.pdn.ac.lk/alumni/">Alumni</a>
-                        <a class="dropdown-item" target="_blank" href="https://people.ce.pdn.ac.lk/staff/temporary-academic-staff/">Temporary Academic Staff</a>
-                        <a class="dropdown-item" target="_blank" href="https://people.ce.pdn.ac.lk/staff/academic-support-staff/">Academic Support Staff</a>
-                   </ul>
-               </li>
-               <li class="nav-item"><a class="nav-link" href="#">Latest</a></li>
-               <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-               <li class="nav-item"><a class="nav-link" href="#">Join Us</a></li>
+                <li class="nav-item dropdown dropdown-hover-all">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">People</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown02">
 
-           </ul>
-       </div>
-   </div>
-</nav>
+                        <div class="dropdown dropend">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-staff" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Staff
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-staff">
+                                <a class="dropdown-item" target="_blank" href="https://people.ce.pdn.ac.lk/staff/academic/">Academic Staff</a>
+                                <a class="dropdown-item" target="_blank" href="https://people.ce.pdn.ac.lk/staff/temporary-academic-staff/">Temporary Academic Staff</a>
+                                <a class="dropdown-item" target="_blank" href="https://people.ce.pdn.ac.lk/staff/academic-support-staff/">Academic Support Staff</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" target="_blank" href="https://people.ce.pdn.ac.lk/staff/past-heads-of-dep/">Past Heads of the Department</a>
+                                <a class="dropdown-item" target="_blank" href="https://people.ce.pdn.ac.lk/staff/academic/past/">Past Academic Staff</a>
+                            </div>
+                        </div>
 
-<!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-    <a class="navbar-brand" href="#">&nbsp;</a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <div class="container">
-            <ul class="navbar-nav justify-content-between w-100">
-
+                        <div class="dropdown dropend">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="dropdown-students" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Students
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-students">
+                                <a class="dropdown-item" target="_blank" href="https://people.ce.pdn.ac.lk/students/e18/">E18</a>
+                                <a class="dropdown-item" target="_blank" href="https://people.ce.pdn.ac.lk/students/e17/">E17</a>
+                                <a class="dropdown-item" target="_blank" href="https://people.ce.pdn.ac.lk/students/e16/">E16</a>
+                                <a class="dropdown-item" target="_blank" href="https://people.ce.pdn.ac.lk/students/e15/">E15</a>
+                            </div>
+                        </div>
+                        <!-- <div class="dropdown-divider"></div> -->
+                        <a class="dropdown-item" href="https://people.ce.pdn.ac.lk/alumni/">Alumni</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">Latest</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Join Us</a></li>
             </ul>
         </div>
     </div>
-</nav> -->
+</nav>
