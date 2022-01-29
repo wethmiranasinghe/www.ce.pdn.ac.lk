@@ -1,16 +1,14 @@
 ---
 layout: page_news
-title: "Third year undergraduate in the award winning team working on Cloud Atlas: an innovative project to build biodegradable sanitary products"
-
-description: "Three third  year undergraduates from the University of Peradeniya have invented a hundred percent Bio-Degradable Sanitizer bottle and Sanitary wipe package to combat this issue. Navodya  Kumari Ekanayake, a third-year medical student; Shakthi Senarathne..."
+title: "Third year undergraduate in the award winning team working on Cloud Atlas"
 
 image: /news/images/pera-inventra-winners.jpg
-
 parent: News
 
 link_url: #
 link_caption: #
-author: Sample Author
+
+author: #
 published_date: 2021-06-02
 ---
 

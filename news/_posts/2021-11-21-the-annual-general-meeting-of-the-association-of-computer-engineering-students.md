@@ -2,15 +2,13 @@
 layout: page_news
 title: "The annual general meeting of the Association of Computer Engineering Students"
 
-description: "The annual general meeting of the Association of Computer Engineering Students (ACES) was successfully held on 28th October 2021 with the participation of students and lecturers of the department of Computer Engineering, University of Peradeniya..."
-
 image: /news/images/aces-2022.jpeg
-
 parent: News
 
 link_url: #
 link_caption: #
-author: Sample Author
+
+author: Nanduni Gamage
 published_date: 2021-11-21
 ---
 

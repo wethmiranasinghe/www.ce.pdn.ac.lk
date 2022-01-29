@@ -18,7 +18,7 @@ layout: wrappers_table
             <nav aria-label="breadcrumb" class="pb-3">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="{{ site.baseurl }}{% link pages/home.html %}">Home</a></li>
-                    <li class="breadcrumb-item"><a href="{{ site.baseurl }}{% link news/index.html %}">News</a></li>
+                    <li class="breadcrumb-item"><a href="{{ site.baseurl }}{% link events/index.html %}">Events</a></li>
                     <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
                 </ol>
             </nav>
@@ -33,12 +33,12 @@ layout: wrappers_table
                 {{ page.author }} &middot;
             </span>
             {%- endif -%}
-
+            
             <span class="text-muted" title="Estimated read time">
                 {% include read_time.html content=page.content -%}
             </span>
             <hr>
-            
+
             {%- if page.image -%}
             <div class="row py-5">
                 <div class="col-8 mx-auto">
@@ -75,7 +75,6 @@ layout: wrappers_table
                         </li>
                         {% endif %}
                         {% endfor %}
-
                     </ul>
                 </div>
             </div>
@@ -88,26 +87,6 @@ layout: wrappers_table
                 <iframe width="560" height="315" src="{{ page.video.url }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             {% endif %}
-
-            {% if page.resources == true %}
-            <div class="project-section mb-5">
-                <h4 class="project-section-title">Resources / Links</h4>
-                <div class="container px-4">
-                    {% for res in page.resource_list %}
-                    <div class="pb-1">
-                        <i class="fa fa-link me-2" aria-hidden="true"></i> <a href="{{ res.url }}" target='_blank'>{{ res.text }}</a>
-                    </div>
-                    {% endfor %}
-
-                    {% if page.github %}
-                    <div class="pb-1 pt-2">
-                        <i class="fab fa-github me-2" aria-hidden="true"></i><a href="{{ page.github }}" target='_blank'>{{ page.github }}</a>
-                    </div>
-                    {% endif %}
-                </div>
-            </div>
-            {% endif %}
-
         </div>
     </div>
     {% include footer.html %}

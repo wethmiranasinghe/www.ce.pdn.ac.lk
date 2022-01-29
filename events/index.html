@@ -1,0 +1,27 @@
+---
+layout: default
+title: Events
+permalink: /events/
+navbar_active: Events
+---
+{% include page_tree_builder.html pages=site.html_pages -%}
+
+<nav aria-label="breadcrumb pt-3">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ site.baseurl }}{% link pages/home.html %}">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Events</li>
+    </ol>
+</nav>
+
+{%- assign eventsList = site.categories["events"] | where: "draft", "false" -%}
+<div class="container">
+    <div class="row py-5">
+        <h1 class="text-center">Events</h1>
+        <h3 class="text-center text-muted">A range of events occurs within the department including seminars, students activities and gatherings</h3>
+    </div>
+    <div class="row">
+        {%- for post in eventsList -%}
+        {% include card_events.html post=post%}
+        {%- endfor -%}
+    </div>
+</div>

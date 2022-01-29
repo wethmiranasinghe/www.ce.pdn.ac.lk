@@ -56,37 +56,55 @@ permalink: /
 </div>
 
 <main role="main" class="container pt-3 vh-50">
-    <h3 class="pb-5">Welcome to the Department of Computer Engineering, University of Peradeniya</h3>
+    <!-- <h3 class="pb-5">Welcome to the Department of Computer Engineering, University of Peradeniya</h3> -->
 
 
     {% assign newsList = site.categories["news"] | where: "draft", "false" %}
-    <h3>News</h3>
-    <ul>
-        {% for post in newsList %}
-        <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-        {% endfor %}
-    </ul>
+    {%- assign newsCount = newsList | size -%}
+    <div class="container">
+        <div class="row py-5">
+            <h1 class="text-center">Latest News</h1>
+            <h3 class="text-center text-muted">Read the latest news about the Department of Computer Engineering</h3>
+        </div>
+        <div class="row">
+            {%- for post in newsList limit:4 -%}
+            {% include card_news.html post=post%}
+            {%- endfor -%}
+        </div>
 
-    <pre>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        {%- if newsCount > 4 -%}
+        <div class="row">
+            <div class="text-center py-3">
+                <a href="{{ site.baseurl }}{%- link news/index.html -%}" style="width:200px" class="btn btn-primary">
+                    <i class="fas fa-arrow-alt-circle-right me-2"></i>View More News
+                </a>
+            </div>
+        </div>
+        {%- endif -%}
+    </div>
 
 
+    {%- assign eventsList = site.categories["events"] | where: "draft", "false" -%}
+    {%- assign eventCount = eventsList | size -%}
+    <div class="container">
+        <div class="row py-5">
+            <h1 class="text-center">Events</h1>
+            <h3 class="text-center text-muted">A range of events occurs within the department including seminars, students activities and gatherings</h3>
+        </div>
+        <div class="row">
+            {%- for post in eventsList limit:4 -%}
+            {% include card_events.html post=post%}
+            {%- endfor -%}
+        </div>
+        {%- if eventCount > 4 -%}
+        <div class="row">
+            <div class="text-center py-3">
+                <a href="{{ site.baseurl }}{%- link events/index.html -%}" style="width:200px" class="btn btn-primary">
+                    <i class="fas fa-arrow-alt-circle-right me-2"></i>View More Events
+                </a>
+            </div>
+        </div>
+        {%- endif -%}
+    </div>
 
-
-    </pre>
 </main>
