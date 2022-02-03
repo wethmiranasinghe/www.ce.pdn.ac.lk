@@ -5,8 +5,16 @@
         </button>
         <div class="collapse navbar-collapse" id="main_nav">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between w-100">
-                <li class="nav-item active"><a class="nav-link" href="{{ '/' | prepend: site.baseurl  }}">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Study</a></li>
+                <li class="nav-item active"><a class="nav-link" href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
+
+                <li class="nav-item dropdown dropdown-hover-all">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown_study" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Study</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown_study">
+                        <a class="dropdown-item" href="{{ '/undergraduate-courses/' | prepend: site.baseurl }}">Undergraduate Courses</a>
+                        <a class="dropdown-item" href="{{ '/postgraduate-courses/' | prepend: site.baseurl }}">Postgraduate Courses</a>
+                    </div>
+                </li>
+
                 <li class="nav-item"><a class="nav-link" href="#">Research</a></li>
                 <li class="nav-item"><a class="nav-link" href="https://projects.ce.pdn.ac.lk/">Projects</a></li>
 
@@ -43,9 +51,39 @@
                         <a class="dropdown-item" href="https://people.ce.pdn.ac.lk/alumni/">Alumni</a>
                     </div>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#">Latest</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Join Us</a></li>
+
+                <!-- Latest -->
+                <li class="nav-item dropdown dropdown-hover-all">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown_latest" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Latest</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown_latest">
+                        <a class="dropdown-item" href="{{ '/news/' | prepend: site.baseurl }}">News</a>
+                        <a class="dropdown-item" href="{{ '/events/' | prepend: site.baseurl }}">Events</a>
+                        <a class="dropdown-item" target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vR-EkodNirStWpMfHr1pZcivrPJ_usJRJV2-36o0aa8F6VHgwbr0xZVswd8x5fk3RZN0uLGZILSjsdW/pub">Academic Calendar</a>
+                        <a class="dropdown-item" target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vRp4MEjiFOZuvkPFd3_emXj6pPTxM91RF6Ilhn5CX7fRaj_dG6hDKa17ykQ5thIFpmzLLUC78bxbkn1/pub">Timetables</a>
+                        <a class="dropdown-item" target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vRULmmwk1-6KQQVYkBWmIJNOliC-H1O2DJGPqlfI2vyHgzjo9IHS7AoeVPW9RoxnQn8_cLqOmkXrkFy/pub">Examination Schedules</a>
+                        <a class="dropdown-item" target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vQw6ubwr36kpNVleJQaanrM6c2yXTh6eF79BHw37bkqzgTXzMv4NKPdOTY4XoWfqkaduQLRAjQohFR6/pub">Work Allocations</a>
+                    </div>
+                </li>
+
+                <!-- About us -->
+                <li class="nav-item dropdown dropdown-hover-all">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown_latest" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About us</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown_latest">
+                        <a class="dropdown-item" href="{{ '/overview/' | prepend: site.baseurl }}">Overview</a>
+                        <a class="dropdown-item" href="{{ '/vision-and-mission/' | prepend: site.baseurl }}">Vision and Mission</a>
+                        <a class="dropdown-item" href="{{ '/department-history/' | prepend: site.baseurl }}">Department History</a>
+                        <a class="dropdown-item" href="{{ '/contact-us/' | prepend: site.baseurl }}">Contact Us</a>
+                        <a class="dropdown-item" href="https://faq.ce.pdn.ac.lk">FAQ</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown dropdown-hover-all">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown_latest" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Join Us</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown_latest">
+                        <a class="dropdown-item" href="{{ '/vacancies/' | prepend: site.baseurl }}">Vacancies</a>
+                        <a class="dropdown-item" href="{{ '/opportunities/' | prepend: site.baseurl }}">Opportunities</a>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
