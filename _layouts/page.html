@@ -18,6 +18,12 @@
             </nav>
         </div>
 
+        {%- if page.page_banner -%}
+        <div class="container my-3 p-0" style="height: 300px; overflow: hidden; margin: 0 auto; position:relative">
+            <img style="width:100%; position: absolute;top:-100%; left:0; right: 0; bottom:-100%;margin: auto;" src="{{ page.page_banner | relative_url }}" class="img-fluid" alt="{{ page.title }}">
+        </div>
+        
+        {%- endif -%}
         <div class="container pt-5">
             {{ content }}
         </div>
