@@ -13,7 +13,7 @@ The group is led by Roshan Ragel and has continued collaborations with Professor
 
 The group consists of the academic staff members of the Department of Computer Engineering, the Postgraduate (Ph.D., M.Phil., M.Eng., and M.Sc.) students from both the Department of Computer Engineering and the Postgraduate Institute of Science (PGIS), and the Undergraduate students from the Department of Computer Engineering and the Department of Statistics and Computer Science. The group also collaborates with the academic staff members, postdoctoral researchers and postgraduate students from the School of Computer Science and Engineering, UNSW. Roshan Ragel regularly visits UNSW, Sydney, as a visiting research fellow.
 
-###Current Themes
+### Current Themes
 
 - Security and Reliability of Embedded Systems
 - Side-Channel Attacks and Countermeasures
