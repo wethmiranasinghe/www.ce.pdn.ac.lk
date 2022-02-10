@@ -29,3 +29,9 @@
 
 
 .dropdown-hover-all .dropdown-menu, .dropdown-hover > .dropdown-menu.dropend { margin-left:-1px !important }
+
+
+.footer{
+    background-color: #343a40!important;
+    text-decoration: none;
+}

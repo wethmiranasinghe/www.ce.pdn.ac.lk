@@ -11,6 +11,11 @@
 
     <link href="{{ '/assets/css/index.css' | relative_url }}" rel="stylesheet">
 
+    <!-- Load icons -->
+    <link href="{{ '/assets/fontawesome/fontawesome.min.css' | relative_url }}" rel="stylesheet">
+    <link href="{{ '/assets/fontawesome/solid.min.css' | relative_url }}" rel="stylesheet">
+    <link href="{{ '/assets/fontawesome/brands.min.css' | relative_url }}" rel="stylesheet">
+
     {% if page.navbar_active == "Home" %}
     <link href="{{ '/assets/css/home.css' | prepend: site.baseurl }}" rel="stylesheet">
     {%- endif -%}

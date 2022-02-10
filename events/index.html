@@ -6,12 +6,15 @@ navbar_active: Events
 ---
 {% include page_tree_builder.html pages=site.html_pages -%}
 
-<nav aria-label="breadcrumb pt-3">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="{{ site.baseurl }}{% link pages/home.html %}">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Events</li>
-    </ol>
-</nav>
+<div class="bg-secondary p-3 pb-1 rounded">
+    <h1 class="text-white">{{ page.title }}</h1>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb page-breadcrumb">
+            <li class="breadcrumb-item"><a href="{{ '/' | prepend: site.baseurl }}" class="link-light">Home</a></li>
+            <li class="breadcrumb-item text-white">{{ page.title }}</li>
+        </ol>
+    </nav>
+</div>
 
 {%- assign eventsList = site.categories["events"] | where: "draft", "false" -%}
 <div class="container">
