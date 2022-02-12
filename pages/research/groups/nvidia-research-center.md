@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_research
 title: GPU Computing
 permalink: /research/nvidia-research-center/
 navbar_active: Research

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_research
 title: Complex Reactive Systems
 permalink: /research/wearable-computing/
 navbar_active: Research

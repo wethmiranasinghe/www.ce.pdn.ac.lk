@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_research
 title: Complex Reactive Systems
 permalink: /research/complex-reactive-systems/
 navbar_active: Research

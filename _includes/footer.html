@@ -1,3 +1,7 @@
+<button type="button" class="btn btn-primary btn-floating btn-lg" id="btn-back-to-top">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
 
 <footer class="mt-5 text-center text-lg-start text-white" style="background-color: #343a40">
     <section class="pt-2">
@@ -8,12 +12,14 @@
                     <hr class="mb-4 mt-0 d-inline-block mx-auto footer-hr"/>
 
                     <ul class="list-unstyled">
-                        <li><a href="https://people.ce.pdn.ac.lk" class="text-white">People</a></li>
-                        <li><a href="https://projects.ce.pdn.ac.lk" class="text-white">Projects</a></li>
                         <li><a href="{{ '/academics/' | relative_url }}" class="text-white">Academic</a></li>
                         <li><a href="{{ '/research/' | relative_url }}" class="text-white">Research</a></li>
+                        <li><a href="{{ '/facilities/' | relative_url }}" class="text-white">Facilities</a></li>
+                        <li><a href="https://people.ce.pdn.ac.lk" class="text-white">People</a></li>
+                        <li><a href="https://projects.ce.pdn.ac.lk" class="text-white">Projects</a></li>
                         <li><a href="{{ '/news/' | relative_url }}" class="text-white">News</a></li>
                         <li><a href="{{ '/events/' | relative_url }}" class="text-white">Events</a></li>
+                        <li><a href="https://faq.ce.pdn.ac.lk" class="text-white">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="col-md-5 col-lg-5 col-xl-5 mx-auto mb-1">
@@ -23,6 +29,7 @@
                     <ul class="list-unstyled">
                         <li><a href="https://aces.ce.pdn.ac.lk/" class="text-white" target="_blank">Association of Computer Engineering Students (ACES)</a></li>
                         <li><a href="https://www.youtube.com/channel/UCK3iLe5Mt5eEHTlviEfZVkg?view_as=subscriber" class="text-white" target="_blank">Department YouTube Channel</a></li>
+                        <li><a href="https://github.com/cepdnaclk/" class="text-white" target="_blank">Department GitHub Organization</a></li>
                         <li><a href="https://ce-pdn-ac-lk.com/coursemgmnt/login.php" class="text-white" target="_blank">Course Management System</a></li>
                         <li><a href="https://feels.pdn.ac.lk/" class="text-white" target="_blank">Faculty of Engineering eLearning System (FEeLS)</a></li>
                         <li><a href="http://eng.pdn.ac.lk/" class="text-white" target="_blank">Faculty of Engineering</a></li>
@@ -71,6 +78,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 <script src="{{ '/assets/js/holder.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/assets/js/index.js' | prepend: site.baseurl }}"></script>
 
 {% if page.navbar_active == "Home" %}
 <script src="{{ '/assets/js/bootstrap5-dropdown.js' | prepend: site.baseurl }}"></script>

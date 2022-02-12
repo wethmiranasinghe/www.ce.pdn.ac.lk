@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_research
 title: Computational Biology Research Group
 permalink: /research/computational-biology
 navbar_active: Research

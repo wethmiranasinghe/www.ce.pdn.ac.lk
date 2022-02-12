@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_research
 title: GPU Computing
 permalink: /research/cryptography-research-laboratory/
 navbar_active: Research

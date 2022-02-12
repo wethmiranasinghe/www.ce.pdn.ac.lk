@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_research
 title: Software Defined Networks (SDN)
 permalink: /research/software-defined-networks-sdn/
 navbar_active: Research

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_research
 title: Embedded Systems and Computer Architecture Laboratory (ESCAL)
 permalink: /research/embedded-systems/
 navbar_active: Research

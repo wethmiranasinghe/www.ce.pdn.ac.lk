@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_research
 title: Machine Learning & Data Mining
 permalink: /research/machine-learning-data-mining/
 navbar_active: Research
