@@ -1,9 +1,18 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-    <div class="container px-5">
+    <div class="container px-3">
+        {% if page.title != "Home" %}
+        <a class="navbar-brand me-5" href="{{ '/' | prepend: site.baseurl }}">
+            <img src="{{ '/assets/images/banner.svg' | prepend: site.baseurl }}" alt="" width="300" >
+        </a>
+        {% else %}
+        <a class="navbar-brand me-5 d-sm-block d-md-none" href="{{ '/' | prepend: site.baseurl }}">
+            <img src="{{ '/assets/images/banner.svg' | prepend: site.baseurl }}" alt="" width="300" >
+        </a>
+        {%- endif -%}
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="main_nav">
+        <div class="collapse navbar-collapse ms-3" id="main_nav">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between w-100">
                 <li class="nav-item active"><a class="nav-link" href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
 
@@ -60,13 +69,6 @@
                         <a class="dropdown-item" href="{{ '/vision-and-mission/' | prepend: site.baseurl }}">Vision and Mission</a>
                         <a class="dropdown-item" href="{{ '/department-history/' | prepend: site.baseurl }}">Department History</a>
                         <a class="dropdown-item" href="{{ '/contact-us/' | prepend: site.baseurl }}">Contact Us</a>
-                        <a class="dropdown-item" href="https://faq.ce.pdn.ac.lk">FAQ</a>
-                    </div>
-                </li>
-
-                <li class="nav-item dropdown dropdown-hover-all">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown_latest" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Join Us</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown_latest">
                         <a class="dropdown-item" href="{{ '/vacancies/' | prepend: site.baseurl }}">Vacancies</a>
                         <a class="dropdown-item" href="{{ '/opportunities/' | prepend: site.baseurl }}">Opportunities</a>
                     </div>
