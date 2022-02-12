@@ -1,8 +1,8 @@
 ---
 layout: default
-title: News
-permalink: /news/
-navbar_active: News
+title: Achievements
+permalink: /achievements/
+navbar_active: Achievements
 ---
 {% include page_tree_builder.html pages=site.html_pages -%}
 
@@ -16,18 +16,15 @@ navbar_active: News
     </nav>
 </div>
 
-{% assign newsList = site.categories["news"] | where: "draft", "false" %}
-{%- assign newsCount = newsList | size -%}
-
+{%- assign eventsList = site.categories["achievements"] | where: "draft", "false" -%}
 <div class="container">
     <div class="row py-5">
-        <h1 class="text-center">Latest News</h1>
-        <h3 class="text-center text-muted">Read the latest news about the Department of Computer Engineering</h3>
+        <h1 class="text-center">Achievements</h1>
+        <h3 class="text-center text-muted"></h3>
     </div>
-
     <div class="row">
-        {%- for post in newsList -%}
-        {% include cards/card_news.html post=post%}
+        {%- for post in eventsList -%}
+        {% include cards/card_achievement.html post=post%}
         {%- endfor -%}
     </div>
 </div>

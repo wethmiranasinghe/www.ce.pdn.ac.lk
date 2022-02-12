@@ -24,7 +24,7 @@ navbar_active: Events
     </div>
     <div class="row">
         {%- for post in eventsList -%}
-        {% include card_events.html post=post%}
+        {% include cards/card_events.html post=post%}
         {%- endfor -%}
     </div>
 </div>

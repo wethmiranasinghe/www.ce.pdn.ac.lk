@@ -66,11 +66,11 @@ navbar_active: "Home"
     <div class="container">
         <div class="row py-5">
             <h1 class="text-center">Latest News</h1>
-            <h3 class="text-center text-muted">Read the latest news about the Department of Computer Engineering</h3>
+            <h5 class="text-center text-muted">Read the latest news about the Department of Computer Engineering</h5>
         </div>
         <div class="row">
             {%- for post in newsList limit:4 -%}
-            {% include card_news.html post=post%}
+            {% include cards/card_news.html post=post%}
             {%- endfor -%}
         </div>
 
@@ -91,11 +91,11 @@ navbar_active: "Home"
     <div class="container">
         <div class="row py-5">
             <h1 class="text-center">Events</h1>
-            <h3 class="text-center text-muted">A range of events occurs within the department including seminars, students activities and gatherings</h3>
+            <h5 class="text-center text-muted">A range of events occurs within the department including seminars, students activities and gatherings</h5>
         </div>
         <div class="row">
             {%- for post in eventsList limit:4 -%}
-            {% include card_events.html post=post%}
+            {% include cards/card_events.html post=post%}
             {%- endfor -%}
         </div>
         {%- if eventCount > 4 -%}
