@@ -3,7 +3,7 @@
     "name": "Department of Comuputer Engineering - University of Peradeniya",
     "icons": [
         {
-            "src": "/assets/img/crest.png",
+            "src": "/assets/images/crest.png",
             "type": "image/png",
             "sizes": "90x90",
             "purpose": "any maskable"
