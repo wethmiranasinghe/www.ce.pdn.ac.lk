@@ -1,18 +1,16 @@
 ---
 layout: page_news
-title: "Dummy News"
-description: "A small description about the publication"
+title: "Dummy News Title"
+description: "A short description or the caption for the news"
 
-permalink: /news/dummy/
+image: /news/images/dummy.jpg
 parent: News
-navbar_active: News
-nav_order: 1
 
 link_url: #
-link_caption: View More
+link_caption: "Link button text"
 
-author: Sample Author
+author: Dummy Author
 published_date: 2021-07-01
 ---
 
-This is a sample description about the paper within 100-150 words.
+This is a sample description about the news within 100-150 words.
