@@ -1,6 +1,6 @@
 ---
 layout: page_research
-title: GPU Computing
+title: Cryptography Research Laboratory
 permalink: /research/cryptography-research-laboratory/
 navbar_active: Research
 page_banner: images/banners/cryptography-research-banner.jpg

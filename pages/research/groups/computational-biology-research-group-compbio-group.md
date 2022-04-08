@@ -1,7 +1,7 @@
 ---
 layout: page_research
 title: Computational Biology Research Group
-permalink: /research/computational-biology
+permalink: /research/computational-biology/
 navbar_active: Research
 page_banner: images/banners/computational-biology-banner.jpg
 ---
