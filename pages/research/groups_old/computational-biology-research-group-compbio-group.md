@@ -1,11 +1,12 @@
 ---
-layout: page_research_new
+layout: page_research
 title: Computational Biology Research Group
-code: com_bio
-permalink: /research/computational-biology/
+permalink: /research/old/computational-biology/
 navbar_active: Research
 page_banner: images/banners/computational-biology-banner.jpg
 ---
+
+As much as there is a universe as we look up, there is a universe to explore within ourselves, at micro level. The computational biology research lab at Department of Computer Engineering, University of Peradeniya focuses on exploring the use of Computer science and Engineering to elucidate the biological systems around us and using that knowledge in various applications.
 
 ### Recent Updates
 Last Updated on 25/12/2021
@@ -19,6 +20,28 @@ Last Updated on 25/12/2021
 - Our work miRNAFinder: A Comprehensive Web Resource for Plant Pre-microRNA Classification is now available as a preprint
 - Our work on Crop disease detection with Deep learning has been accepted for an oral presentation at iPURSE 2021. Further work on the project is up at [https://damayanthiherath.github.io/leaf-disease-classification/](https://damayanthiherath.github.io/leaf-disease-classification/)
 We will be organizing a [special session on data engineering for biology and medicine at ICIAFS conference 2021](http://spsr.sltc.ac.lk/events/iciafs-2021/for-authors/cfp-special-sessions/debm/).
+
+### People
+
+- Dr Damayanthi Herath
+- Dr Asitha Bandaranayake
+
+### Collaborators
+
+- Prof. Sen-Lin Tang, Academia Sinica, Taiwan
+
+### Past Students
+
+##### 2020
+- Sandali Lokuge
+- Puwasuru Ihalagedara
+- Shyaman Madhawa
+- Geeth Priyankara
+- Kasun Vimukthi
+- Prabath Bandara
+- Kaveesha Hewage
+- Chamara Gunarathne
+- Shehan Perera
 
 ### Publications
 

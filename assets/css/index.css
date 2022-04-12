@@ -97,8 +97,27 @@ footer li{
 }
 
 #btn-back-to-top {
-  position: fixed;
-  bottom: 40px;
-  right: 20px;
-  display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    display: none;
+}
+
+.profile-title{
+    font-size: 0.9em !important;
+}
+.profile-text{
+    font-size: 1em !important;
+}
+
+.research-group-title{
+    font-size: 1.25em !important;
+    text-decoration: none !important;
+}
+
+.research-group-card {
+    transition: box-shadow .3s;
+}
+.research-group-card:hover {
+    box-shadow: 0 0 16px rgba(33,33,33,.5);
 }

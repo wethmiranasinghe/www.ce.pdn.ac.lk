@@ -7,8 +7,28 @@ index_page: true
 ---
 
 
-{% assign pages = site.pages | where: "layout", "page_research" %}
+{% assign pages = site.pages | where: "layout", "page_research_new" %}
 
+<div class="row px-5 pb-5">
+    {% for p in pages %}
+    <div class="col-md-6">
+        <a class="text-decoration-none" href="{{ p.permalink | relative_url }}">
+            <div class="card research-group-card">
+                <img class="card-img-top" src="{{ p.page_banner | relative_url }}" alt="p.title">
+                <div class="card-body text-center">
+                    <span class="research-group-title btn-link ">
+                        {{p.title}}
+                    </span>
+                </div>
+            </div>
+        </a>
+    </div>
+    {% endfor %}
+</div>
+
+
+{% assign pages = site.pages | where: "layout", "page_research" %}
+<h4>Old Pages </h4>
 <ul>
     {% for p in pages %}
     <li><a href="{{ p.permalink | relative_url }}">{{p.title}}</a></li>

@@ -33,19 +33,23 @@ def getStud_profile(data):
     if (data["honorific"] != ""):
         name = data["honorific"] + " " + name
 
+    profile_img = "/assets/images/profile_default.jpg" if (data["profile_image"] == "") else data["profile_image"]
+
     return {
         "name": name,
         "affiliation": data["current_affiliation"],
         "profile_url": data["profile_page"],
-        "profile_image": data["profile_image"]
+        "profile_image": profile_img
     }
 
 def getStaff_profile(data):
+
+    profile_img = "/assets/images/profile_default.jpg" if (data["profile_image"] == "") else data["profile_image"]
     return {
         "name": data["name"],
         "affiliation": "Department of Computer Engineering, University of Peradeniya",
         "profile_url": data["profile_url"],
-        "profile_image": data["profile_image"]
+        "profile_image": profile_img
     }
 
 # ------------------------------------------------------------------------------
@@ -114,7 +118,7 @@ for group in research_groups:
     formatted_group['people'] = {
         'staff': [],
         'students': [],
-        'external-collaborators': group['people']['external-collaborators']
+        'external-collaborators': []
     }
 
     for p in group['people']['staff']:
@@ -128,6 +132,14 @@ for group in research_groups:
         # print(student)
         if person in student_dict:
             formatted_group['people']['students'].append(getStud_profile(student_dict[person]))
+
+    for p in group['people']['external-collaborators']:
+        person = p
+
+        if (person['profile_image'] == ""):
+            person['profile_image'] = "/assets/images/profile_default.jpg"
+
+        formatted_group['people']['external-collaborators'].append(person)
     # print(formatted_group['maintainers'])
 
 

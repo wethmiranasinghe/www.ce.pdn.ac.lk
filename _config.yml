@@ -3,6 +3,9 @@ baseurl: "/web"
 
 description: "Department of Computer Engineering"
 
+github_repository: https://github.com/cepdnaclk/web
+github_branch: main
+
 # Google Analytics Tracking (optional)
 ga_tracking:
 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)

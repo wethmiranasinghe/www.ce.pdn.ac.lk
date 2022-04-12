@@ -11,6 +11,12 @@
             "affiliation": "Department of Computer Engineering, University of Peradeniya",
             "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/janaka-alawatugoda/",
             "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/janaka-alawatugoda.jpg"
+        },
+        {
+            "name": "Prof. Roshan G. Ragel",
+            "affiliation": "Department of Computer Engineering, University of Peradeniya",
+            "profile_url": "https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/",
+            "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/roshan-ragel.jpg"
         }
     ],
     "maintainers": [
@@ -42,13 +48,26 @@
                 "profile_image": "https://people.ce.pdn.ac.lk/images/staff/academic-staff/upul-jayasinghe.jpg"
             }
         ],
-        "students": [],
+        "students": [
+            {
+                "name": "Pasan Tennakoon",
+                "affiliation": "",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/350/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15350.jpg"
+            },
+            {
+                "name": "Supipi Karunathilaka",
+                "affiliation": "",
+                "profile_url": "https://people.ce.pdn.ac.lk/students/e15/180/",
+                "profile_image": "https://people.ce.pdn.ac.lk/images/students/e15/e15180.jpg"
+            }
+        ],
         "external-collaborators": [
             {
                 "name": "Dr. Chai Wen Chuah",
                 "affiliation": "Tun Hussein Onn University of Malaysia, Malaysia",
                 "profile_url": "",
-                "profile_image": ""
+                "profile_image": "/assets/images/profile_default.jpg"
             }
         ]
     },
