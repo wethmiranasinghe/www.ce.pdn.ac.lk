@@ -7,7 +7,7 @@ github_repository: https://github.com/cepdnaclk/web
 github_branch: main
 
 # Google Analytics Tracking (optional)
-ga_tracking:
+ga_tracking: G-D5YWPKS2P3
 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
 # Minima date format
