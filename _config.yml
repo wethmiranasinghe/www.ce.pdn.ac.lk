@@ -1,9 +1,9 @@
 title: "Department of Computer Engineering"
-baseurl: "/web"
+baseurl: ""
 
 description: "Department of Computer Engineering"
 
-github_repository: https://github.com/cepdnaclk/web
+github_repository: https://github.com/cepdnaclk/ce.pdn.ac.lk
 github_branch: main
 
 # Google Analytics Tracking (optional)
