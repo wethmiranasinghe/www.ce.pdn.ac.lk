@@ -9,7 +9,8 @@ navbar_active: "Home"
 <header class="blog-header py-3 px-3 d-none d-sm-none d-md-block">
     <div class="row flex-nowrap justify-content-between align-items-center">
         <div class="col-5 pt-1">
-            <img class="ms-5 mx-auto d-block img-fluid" src="{{ '/assets/images/banner.svg' | prepend: site.baseurl }}" alt="Logo">
+            <img class="ms-5 mx-auto d-block img-fluid" src="{{ '/assets/images/banner.svg' | prepend: site.baseurl }}"
+                alt="Logo">
         </div>
         <div class="col-8 d-none">
             <!-- <a class="blog-header-logo text-white text-decoration-none" href="#">
@@ -18,7 +19,8 @@ navbar_active: "Home"
             </a> -->
         </div>
         <div class="col-2 d-flex justify-content-end align-items-center">
-            <a class="d-none btn btn-sm btn-outline-secondary" href="http://www.ce.pdn.ac.lk" target="_blank">Department Site</a>
+            <a class="d-none btn btn-sm btn-outline-secondary" href="http://www.ce.pdn.ac.lk" target="_blank">Department
+                Site</a>
         </div>
     </div>
 </header>
@@ -30,9 +32,9 @@ navbar_active: "Home"
     <div class="carousel-indicators">
         {% assign i = 0 -%}
         {% for slide in site.data.carousel -%}
-        <button type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide-to="{{ i }}" class="{% if forloop.first %} active{% endif %}"
-        aria-current="{% if forloop.first %} true{% endif %}" aria-label="Slide {{ i }}"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="{{ i }}"
+            class="{% if forloop.first %} active{% endif %}" aria-current="{% if forloop.first %} true{% endif %}"
+            aria-label="Slide {{ i }}"></button>
         {% assign i = i | plus:1 -%}
         {% endfor -%}
     </div>
@@ -58,7 +60,14 @@ navbar_active: "Home"
 </div>
 
 <main role="main" class="container pt-3 vh-50">
-    <!-- <h3 class="pb-5">Welcome to the Department of Computer Engineering, University of Peradeniya</h3> -->
+    <div class="text-center">
+        <div class="alert alert-primary" role="alert">
+            <b>We are now migrating into a new and better website !</b>
+            <p>Sorry about any inconvenience that occurred. If you are looking for older information, <a
+                    href="https://cepdnaclk.github.io/department-website-2021/">https://cepdnaclk.github.io/department-website-2021/</a>
+            </p>
+        </div>
+    </div>
 
 
     {% assign newsList = site.categories["news"] | where: "draft", "false" %}
@@ -91,7 +100,8 @@ navbar_active: "Home"
     <div class="container">
         <div class="row py-5">
             <h1 class="text-center">Events</h1>
-            <h5 class="text-center text-muted">A range of events occurs within the department including seminars, students activities and gatherings</h5>
+            <h5 class="text-center text-muted">A range of events occurs within the department including seminars,
+                students activities and gatherings</h5>
         </div>
         <div class="row">
             {%- for post in eventsList limit:4 -%}
