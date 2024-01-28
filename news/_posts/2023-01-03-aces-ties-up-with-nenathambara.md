@@ -1,6 +1,6 @@
 ---
 layout: page_news
-title: "Dummy News Title"
+title: "ACES ties up with Nenathambara to make its largest coding competition on the island to the next level"
 description: "The Department of Computer Engineering of the University of Peradeniya has developed over time to the point where it is today, delivering one of the most..."
 
 image: /news/images/aces-ties-up-with-nenathambara.jpg
