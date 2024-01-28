@@ -157,3 +157,18 @@ footer li {
 .dropdown-hover>.dropdown-menu.dropend {
     margin-left: -1px !important
 }
+
+.app-thumb-container {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden !important;
+}
+
+.app-thumb-container img {
+    width: auto;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
