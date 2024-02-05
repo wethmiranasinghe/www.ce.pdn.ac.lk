@@ -29,7 +29,7 @@ for semester in semesters:
 
     outputString = f"""---
 layout: semester
-permalink: "/courses/undergraduate{ url }"
+permalink: "/courses/undergraduate{ url }/"
 
 title: {title}
 code: {semester}
