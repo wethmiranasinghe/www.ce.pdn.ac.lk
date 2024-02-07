@@ -60,16 +60,6 @@ navbar_active: "Home"
 </div>
 
 <main role="main" class="container pt-3 vh-50">
-    <div class="text-center">
-        <div class="alert alert-primary" role="alert">
-            <b>We are now migrating into a new and better website !</b>
-            <p>Sorry about any inconvenience that occurred. If you are looking for older information, <a
-                    href="https://cepdnaclk.github.io/department-website-2021/">https://cepdnaclk.github.io/department-website-2021/</a>
-            </p>
-        </div>
-    </div>
-
-
     {% assign newsList = site.categories["news"] | where: "draft", "false" %}
     {%- assign newsCount = newsList | size -%}
     <div class="container">
