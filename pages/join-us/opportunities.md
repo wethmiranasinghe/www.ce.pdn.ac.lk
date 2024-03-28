@@ -16,7 +16,8 @@ navbar_active: Join Us
 - Note: You can apply without IELTS results and submit the IELTS later if you are shortlisted.
 
 
-{% include image.html align="text-left" src="https://github.com/cepdnaclk/ce.pdn.ac.lk/assets/150322502/6ea0f305-aece-4bff-97dd-171acb940a5f" alt="Advertisement Flyer - PhD Research on Extended Reality " %}
+{% include image.html align="text-left" src="https://github.com/cepdnaclk/ce.pdn.ac.lk/assets/150322502/6ea0f305-aece-4bff-97dd-171acb940a5f" alt="Advertisement Flyer - PhD Research on Extended Reality" %}
+
 
 ### Temporary Instructor Vacancies
 
