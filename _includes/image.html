@@ -1,4 +1,6 @@
 {% assign align = include.align | default: 'text-center' %}
 
-<div class="container {{align}} pb-4"><img class="img-thumbnail" style="max-width: 600px;" src="{{ include.src }}"
-        alt="{{ include.alt }}"></div>
+<div class="container {{align}} pb-4">
+        <img class="img-thumbnail img-fluid w-100" style="max-width: 640px;" src="{{ include.src }}"
+                alt="{{ include.alt }}">
+</div>
