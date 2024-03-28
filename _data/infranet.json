@@ -18,6 +18,10 @@
     {
         "name": "Academic Calendar",
         "url": "https://docs.google.com/document/d/e/2PACX-1vR-EkodNirStWpMfHr1pZcivrPJ_usJRJV2-36o0aa8F6VHgwbr0xZVswd8x5fk3RZN0uLGZILSjsdW/pub"
+    }, 
+    {
+        "name": "For Staff",
+        "url": "#"
     },
     {
         "name": "Exam Claim Application",
@@ -26,10 +30,6 @@
     {
         "name": "Examination Progress",
         "url": "https://docs.google.com/spreadsheets/d/17bdB3PXrTZTh_4IXwW-9zR4avOBeWrHxaDlrG7r6uJo/edit?usp=sharing"
-    },
-    {
-        "name": "For Staff",
-        "url": "#"
     },
     {
         "name": "Work Allocation",
