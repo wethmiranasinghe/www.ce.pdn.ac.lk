@@ -13,8 +13,10 @@ navbar_active: Join Us
 - RMIT Supervisors: Dr. Ruwini Edirisinghe, Prof. Sujeeva Setunge
 - Application deadline: 21st April 2024
 - [Application Link](https://forms.gle/GKpRW1Cv8KSPRDvs8)
-- [Advertisement](https://drive.google.com/file/d/1xQxu3N7lb5v1E2-HMv6BVtWUjVz0D4N2/view?usp=sharing)
 - Note: You can apply without IELTS results and submit the IELTS later if you are shortlisted.
+
+
+{% include image.html align="text-left" src="https://github.com/cepdnaclk/ce.pdn.ac.lk/assets/150322502/6ea0f305-aece-4bff-97dd-171acb940a5f" alt="Advertisement Flyer - PhD Research on Extended Reality " %}
 
 ### Temporary Instructor Vacancies
 
