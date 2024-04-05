@@ -3,8 +3,8 @@ baseurl: ""
 
 description: "Department of Computer Engineering"
 
-github_repository: https://github.com/cepdnaclk/ce.pdn.ac.lk
-github_branch: prod
+github_repository: https://github.com/cepdnaclk/www.ce.pdn.ac.lk
+github_branch: main
 
 # Google Analytics Tracking (optional)
 ga_tracking: G-D5YWPKS2P3
